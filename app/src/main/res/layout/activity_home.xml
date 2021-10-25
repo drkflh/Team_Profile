@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="429dp"
+        android:layout_height="743dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/group_2" />
+
+    <ImageView
+        android:id="@+id/angger"
+        android:layout_width="157dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/angger" />
+
+    <ImageView
+        android:id="@+id/salsa"
+        android:layout_width="157dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angger"
+        app:srcCompat="@drawable/salsa" />
+
+    <ImageView
+        android:id="@+id/aurel"
+        android:layout_width="157dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aurell" />
+
+    <ImageView
+        android:id="@+id/darik"
+        android:layout_width="157dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aurel"
+        app:srcCompat="@drawable/anggota_3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
